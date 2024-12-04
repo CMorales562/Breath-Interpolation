@@ -49,7 +49,7 @@ void loop()
   Serial.println(tempF);
 
   // Time intervals between data collection.
-  delay(1000*5);
+  delay(1000*2);
 
   timeCounter += 2;
 }
